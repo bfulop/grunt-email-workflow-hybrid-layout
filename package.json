@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leemunroe/grunt-email-workflow"
+    "url": "https://github.com/bfulop/grunt-email-workflow-hybrid-layout"
   },
   "devDependencies": {
     "assemble": "^0.9.1",
