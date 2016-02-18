@@ -1,0 +1,28 @@
+<tr>
+    <td class="two-column">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="100%">
+        <tr>
+        <td width="50%" valign="top">
+        <![endif]-->
+        {{> column
+            text="hello left"
+            width=280
+            mypartial=left
+        }}
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        <td width="50%" valign="top">
+        <![endif]-->
+        {{> column
+            text="hello right"
+            width=280
+            mypartial=right
+        }}
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>
