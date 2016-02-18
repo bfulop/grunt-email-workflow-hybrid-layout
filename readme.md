@@ -1,3 +1,11 @@
+# Grunt Email Workflow with Hybrid layout
+
+This is a fork of the Lee Munroe's [Grunt Email Design Workflow repo](https://github.com/leemunroe/grunt-email-workflow).
+
+I just replaced the example files with a hybrid layout solution based Nicole Merlin's article [Creating a Future-Proof Responsive Email Without Media Queries](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) on tutsplus.
+ The handlebars module needed to be updated to ^4.0 in order for partials embedding to work.
+
+
 # Grunt Email Design Workflow
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) 
