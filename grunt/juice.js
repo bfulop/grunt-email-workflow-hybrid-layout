@@ -7,6 +7,7 @@ module.exports = {
       applyWidthAttributes: true,
       preserveImportant: true,
       preserveFontFaces: true,
+      removeStyleTags: false,
       webResources: {
         images: false
       }
