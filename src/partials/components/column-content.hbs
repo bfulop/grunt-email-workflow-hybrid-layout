@@ -1,6 +1,11 @@
 <tr>
     <td>
-        <img src="https://placem.at/things?w={{divide parameters.pagewidth width }}&&h={{divide 450 width}}&random={{ text }}" width="{{divide parameters.pagewidth width }}" alt="" />
+        <!--[if (gte mso 9)|(IE)]>
+        <img src="https://placem.at/things?w={{divide parameters.pagewidth 1 }}&&h={{divide 450 width}}&random={{ text }}" width="{{divide parameters.pagewidth width }}" alt="" />
+        <![endif]-->
+        <!--[if gt IE 8]> <!-- -->
+        <img src="https://placem.at/things?w={{divide parameters.pagewidth 1 }}&&h={{divide 450 width}}&random={{ text }}" width="{{divide parameters.pagewidth 1 }}" alt="" />
+        <![endif]-->
     </td>
 </tr>
 <tr>
