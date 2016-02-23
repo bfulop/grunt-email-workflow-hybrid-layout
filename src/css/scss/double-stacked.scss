@@ -1,0 +1,13 @@
+.three-column .double-stacked img {
+  width: 50%;
+  max-width: $pagewidth / 2;
+  display: inline-block;
+}
+
+@media screen and (min-width: 600px) {
+  .three-column tr td.double-stacked img {
+    width: $pagewidth / 3 !important;
+    max-width: $pagewidth / 3 !important;
+    display: block !important;
+  }
+}
