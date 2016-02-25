@@ -1,10 +1,11 @@
 <tr>
     <td class="double-stacked">
-        <!--[if (gte mso 9)|(IE)]>
-        <img src="images/message-1-first.jpg" alt="Fast'n'Comfortable" width="200" /><img src="images/message-1-second.jpg" alt="Family Car" width="200" />
-        <![endif]-->
-        <!--[if gt IE 8]> <!-- -->
-        <img src="images/message-1-first.jpg" alt="Fast'n'Comfortable" width="300" /><img src="images/message-1-second.jpg" alt="Family Car" width="300" />
-        <![endif]-->
+        {{~> image-double
+        src-1="images/message-1-first.jpg"
+        alt-1="Fast'n'Family"
+        src-2="images/message-1-second.jpg"
+        alt-2="Fast'n'Family"
+        desktopwidth=200
+        mobilewidth=300 ~}}
     </td>
 </tr>
