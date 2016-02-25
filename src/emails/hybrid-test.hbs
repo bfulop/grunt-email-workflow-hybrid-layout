@@ -7,6 +7,31 @@ subject: Hybrid layout email test
     className="header"
     height=100
 }}
-{{> full-width-image }}
-{{> single-column }}
-{{> three-column first="double-stacked" second="double-stacked" third="double-stacked" }}
+
+{{> full-width-image
+    src="images/main-image.jpg"
+    alt="fastnbeautiful"
+}}
+
+{{> single-column
+    margin="10%"
+    center="80%"
+    className="intro-text"
+    contentpartial="introtext"
+    bgcolor="#446875"
+
+}}
+
+{{> three-column
+    first="double-stacked"
+    second="double-stacked"
+    third="double-stacked"
+}}
+
+{{> single-column
+    margin="20%"
+    center="60%"
+    className="celebrating"
+    contentpartial="celebrating"
+    bgcolor="#9B9A9B"
+}}

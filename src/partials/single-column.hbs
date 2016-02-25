@@ -1,20 +1,19 @@
 <tr class="intro-text">
-    <td height="10"></td>
+    <td height="10" bgcolor="{{ bgcolor }}"></td>
 </tr>
 <tr>
-    <td class="one-column intro-text">
+    <td bgcolor="{{ bgcolor }}" class="one-column {{ className }}">
         <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
-                <td width="{{multiply parameters.pagewidth 0.1}}"><img src="images/spacer.gif" width="{{multiply parameters.pagewidth 0.1}}" alt=""></td>
-                <td width="{{multiply parameters.pagewidth 0.8}}" class="inner contents">
-                    <p class="h1">Hello Client,</p>
-                    <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
+                <td width="{{ margin }}"><img src="images/spacer.gif"  alt=""></td>
+                <td width="{{ center }}" class="inner contents">
+                    {{~> (lookup . 'contentpartial') ~}}
                 </td>
-                <td width="{{multiply parameters.pagewidth 0.1}}"><img src="images/spacer.gif" width="{{multiply parameters.pagewidth 0.1}}" alt=""></td>
+                <td width="{{ margin}}"><img src="images/spacer.gif"  alt=""></td>
             </tr>
         </table>
     </td>
 </tr>
 <tr class="intro-text">
-    <td height="10"></td>
+    <td height="10" bgcolor="{{ bgcolor }}"></td>
 </tr>
