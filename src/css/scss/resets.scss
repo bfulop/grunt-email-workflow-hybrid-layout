@@ -7,7 +7,7 @@ body {
 table {
   border-spacing: 0;
   font-family: sans-serif;
-  color: #333333;
+  color: #ffffff;
 }
 td {
   padding: 0;
@@ -18,6 +18,12 @@ img {
 div[style*="margin: 16px 0"] {
   margin:0 !important;
 }
+
+.outer {
+  background-color: #152034;
+  color: #ffffff;
+}
+
 .wrapper {
   width: 100%;
   table-layout: fixed;
