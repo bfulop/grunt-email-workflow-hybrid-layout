@@ -4,7 +4,7 @@ module.exports = {
     options: {
       preserveMediaQueries: true,
       applyAttributesTableElements: true,
-      applyWidthAttributes: true,
+      applyWidthAttributes: false,
       preserveImportant: true,
       preserveFontFaces: true,
       removeStyleTags: false,
