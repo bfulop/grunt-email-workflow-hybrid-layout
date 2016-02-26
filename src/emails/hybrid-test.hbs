@@ -3,7 +3,7 @@ layout: hybrid.hbs
 subject: Hybrid layout email test
 ---
 
-{{> two-columns-fixed
+{{> two-columns-header
     className="header"
     height=100
 }}
@@ -41,5 +41,10 @@ subject: Hybrid layout email test
     right="button"
     className="horizontal"
     bgcolor="#436876"
+}}
+
+{{> two-columns-footer
+    className="footer"
+    height=300
 }}
 
