@@ -1,13 +1,11 @@
-<tr>
-    <td class="two-column">
+<tr bgcolor="{{ bgcolor }}">
+    <td class="two-column" bgcolor="{{ bgcolor }}">
         <!--[if (gte mso 9)|(IE)]>
         <table width="100%">
         <tr>
         <td width="50%" valign="top">
         <![endif]-->
         {{> column
-            text="hello left"
-            width=2
             mypartial=left
         }}
         <!--[if (gte mso 9)|(IE)]>
@@ -15,8 +13,6 @@
         <td width="50%" valign="top">
         <![endif]-->
         {{> column
-            text="hello right"
-            width=2
             mypartial=right
         }}
         <!--[if (gte mso 9)|(IE)]>

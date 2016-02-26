@@ -45,6 +45,9 @@ a {
   max-width: $pagewidth;
   display: inline-block;
   vertical-align: top;
+  &.horizontal {
+    vertical-align: middle;
+  }
 }
 
 // Two column contents
