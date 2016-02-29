@@ -15,17 +15,17 @@ The biggest difference is the dependency on the latest (^4.0.0) version of Handl
 
 This demo newsletter represents a typical challenge that I face daily when building emails for clients.
 We have a multiple-column layout on desktop, that should change to a single-column one for mobile clients. Each content block has unique background color, so they should take up always 100% of the available space. In addition it would be preferable that the email displays normally on archaic webmail clients such as free.fr that strips out 100% of your CSS.
-It's based on the [hybrid/fluid approach](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) but had to be extended so that the individual blocks extend to the full width of their containers. 
-To summarise the characteristics of the template for those who prefer skim reading:
+It's based on the [hybrid/fluid approach](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) but had to be further tweaked so that the individual blocks extend to the full width of their containers. 
+To summarise the characteristics of the template for those who skim read:
 
 - mobile-first
 - columns to expand 100% to their containers
-- support the typical selection of email clients (Outlook, Gmail, iOS, Android, Apple Mail, Yahoo, etc.)
-- don't break on old clients that strip 100% of CSS (free.fr)
+- support all common email clients (Outlook, Gmail, iOS, Android native, Apple Mail, Yahoo, etc.)
+- don't break on old clients that strip 100% of the CSS (free.fr)
 
 ### Test results
 
-Here's the result of test on different clients, hosted by Email on Acid:
+Here's the result of my tests of different clients, hosted by Email on Acid:
 https://www.emailonacid.com/app/acidtest/display/summary/bkHbIdNnVCEvPSONEfSf0hNmr1D1S7MHthEDWVZunZ0nN/shared
 
 ## To do
