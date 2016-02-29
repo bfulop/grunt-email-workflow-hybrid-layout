@@ -3,17 +3,17 @@ layout: hybrid.hbs
 subject: Hybrid layout email test
 ---
 
-{{> two-columns-header
+{{~> two-columns-header
     className="email-header"
     height=100
-}}
+~}}
 
-{{> full-width-image
+{{~> full-width-image
     src="images/main-image.jpg"
     alt="fastnbeautiful"
-}}
+~}}
 
-{{> single-column
+{{~> single-column
     margin="10%"
     contentwidth="80%"
     className="intro-text"
@@ -21,30 +21,31 @@ subject: Hybrid layout email test
     bgcolor="#57C2BA"
 }}
 
-{{> three-column
+{{~> three-column
+    bgcolor="#E7EBEC"
     first="double-stacked"
     second="double-stacked"
     third="double-stacked"
-}}
+~}}
 
 
-{{> single-column
+{{~> single-column
     margin="20%"
     contentwidth="60%"
     className="celebrating"
     contentpartial="celebrating"
     bgcolor="#F26D66"
-}}
+~}}
 
-{{> two-column
+{{~> two-column
     left="address"
     right="button"
     className="horizontal"
     bgcolor="#59C2A3"
-}}
+~}}
 
-{{> two-columns-footer
+{{~> two-columns-footer
     className="footer"
     height=300
-}}
+~}}
 
