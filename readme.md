@@ -23,3 +23,12 @@ To summarise the characteristics of the template for those who prefer skim readi
 - support the typical selection of email clients (Outlook, Gmail, iOS, Android, Apple Mail, Yahoo, etc.)
 - don't break on old clients that strip 100% of CSS (free.fr)
 
+### Test results
+
+Here's the result of test on different clients, hosted by Email on Acid:
+https://www.emailonacid.com/app/acidtest/display/summary/bkHbIdNnVCEvPSONEfSf0hNmr1D1S7MHthEDWVZunZ0nN/shared
+
+## To do
+
+- For the moment the "click me" button is broken on desktop Outlook. The fix is not complicated but I've run out of time.
+- Expand readme/wiki to explain the use of global variables for the CSS and Handlebars.
