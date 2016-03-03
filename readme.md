@@ -28,3 +28,9 @@ To summarise the characteristics of the template for those who prefer skim readi
 - columns to expand 100% to their containers
 - support the typical selection of email clients (Outlook, Gmail, iOS, Android, Apple Mail, Yahoo, etc.)
 - don't break on old clients that strip 100% of CSS (free.fr)
+- target images based on viewport breakpoints (mobile-first strategy)
+
+### Test results (car-dealer branch)
+
+Here's the result of my tests of different clients, hosted by Email on Acid:
+https://www.emailonacid.com/app/acidtest/display/summary/SoMGFYV63M9Gqkdo0jkjeg8KEAja7WjswGXTmmq0lHNZB/shared
