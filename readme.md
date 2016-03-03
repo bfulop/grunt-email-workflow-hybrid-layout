@@ -22,11 +22,12 @@ To summarise the characteristics of the template for those who skim read:
 - columns to expand 100% to their containers
 - support all common email clients (Outlook, Gmail, iOS, Android native, Apple Mail, Yahoo, etc.)
 - don't break on old clients that strip 100% of the CSS (free.fr)
+- target images based on viewport breakpoints (mobile-first strategy)
 
 ### Test results
 
 Here's the result of my tests of different clients, hosted by Email on Acid:
-https://www.emailonacid.com/app/acidtest/display/summary/bkHbIdNnVCEvPSONEfSf0hNmr1D1S7MHthEDWVZunZ0nN/shared
+https://www.emailonacid.com/app/acidtest/display/summary/SoMGFYV63M9Gqkdo0jkjeg8KEAja7WjswGXTmmq0lHNZB/shared
 
 ## To do
 
