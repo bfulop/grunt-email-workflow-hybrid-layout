@@ -1,21 +1,30 @@
 <tr>
-    <td width="10%"><img src="images/spacer.gif"  alt=""></td>
+    <td height="10"></td>
+</tr>
+<tr>
     <td width="80%">
         <div>
             <!--[if mso]>
-            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com" style="height:40px;v-text-anchor:middle;width:300px;" stroke="f" fillcolor="#549CE3">
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com" style="height:40px;v-text-anchor:middle;width:300px;" stroke="f" fillcolor="{{ color }}">
                 <w:anchorlock/>
                 <center>
             <![endif]-->
-            <a href="http://example.com">
-                <table width="100%">
+            <a href="{{ url }}">
+                <table width="100%" bgcolor="{{ color }}">
                     <tr>
-                        <td bgcolor="#549CE3" align="center">
+                        <td align="center" width="10"></td>
+                        <td align="center">
                             <br/>
-                            <font color="#ffffff" face="sans-serif">Click me!</font>
+                            <font color="#ffffff" face="sans-serif">{{ text }}</font>
                             <br/>
                             <br/>
                         </td>
+                        <td align="center" width="10"></td>
+                    </tr>
+                    <tr>
+                        <td height="3" bgcolor="{{ color-border}}"></td>
+                        <td height="3" bgcolor="{{ color-border}}"></td>
+                        <td height="3" bgcolor="{{ color-border}}"></td>
                     </tr>
                 </table>
             </a>
@@ -27,6 +36,5 @@
     <td width="10%"><img src="images/spacer.gif"  alt=""></td>
 </tr>
 <tr>
-    <td height="10"></td>
     <td height="10"></td>
 </tr>

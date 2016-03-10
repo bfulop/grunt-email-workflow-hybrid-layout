@@ -5,21 +5,31 @@ subject: Hybrid layout email test
 
 {{~> two-columns-header
     className="email-header"
-    height=100
+    height=56
 ~}}
 
 {{~> full-width-image
-    src-mobile="images/main-image-mobile.jpg"
+    src-mobile="images/img-header-m.jpg"
     src-desktop="images/main-image.jpg"
     alt="fastnbeautiful"
 ~}}
 
 {{~> single-column
-    margin="10%"
-    contentwidth="80%"
+    margin="2%"
+    contentwidth="96%"
     className="intro-text"
     contentpartial="introtext"
-    bgcolor="#57C2BA"
+    bgcolor="#ffffff"
+    align="center"
+}}
+
+{{~> single-column
+    margin="2%"
+    contentwidth="96%"
+    className="block-middletext"
+    contentpartial="block-middletext"
+    bgcolor="#ffffff"
+    align="left"
 }}
 
 {{~> three-column

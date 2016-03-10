@@ -1,6 +1,6 @@
 .full-width-image img {
   width: 100%;
-  max-width: 600px;
+  max-width: $pagewidth;
   height: auto;
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $pagewidth) {
   .two-column .column {
     max-width: $pagewidth / 2 !important;
   }

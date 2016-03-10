@@ -1,0 +1,19 @@
+.block-middletext-right-contents {
+
+}
+
+@media screen and (min-width: $pagewidth) {
+
+  .block-middletext {
+    .two-column {
+      background-color: $color-bg-main;
+      .column {
+        max-width: 307px !important;
+      }
+      img {
+        max-width: 307px !important;
+      }
+    }
+  }
+
+}

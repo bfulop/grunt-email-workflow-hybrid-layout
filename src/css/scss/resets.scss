@@ -32,14 +32,14 @@ div[style*="margin: 16px 0"] {
   -ms-text-size-adjust: 100%;
 }
 .webkit {
-  max-width: 600px;
+  max-width: $pagewidth;
   margin: 0 auto;
 }
 
 .outer {
   Margin: 0 auto;
   width: 100%;
-  max-width: 600px;
+  max-width: $pagewidth;
 }
 
 

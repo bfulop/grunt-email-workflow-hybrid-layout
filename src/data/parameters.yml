@@ -1,1 +1,4 @@
-pagewidth: 600
+pagewidth: 640
+color-button: "#007FDE"
+color-button-border: "#005AC5"
+color-bg-main: "#223255"

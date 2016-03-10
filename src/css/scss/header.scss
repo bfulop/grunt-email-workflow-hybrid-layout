@@ -1,8 +1,12 @@
 .email-header {
   color: #ffffff;
   font-size: 12px;
+  background-color: #132034;
 }
 
 .intro-text {
-  background-color: #57C2BA;
+  background-color: #ffffff;
+  .inner.contents {
+    text-align: center;
+  }
 }
