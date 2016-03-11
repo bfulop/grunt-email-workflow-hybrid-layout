@@ -1,5 +1,13 @@
 <tr>
     <td>
-        <a href="{{ texts.button-middle-url}}"><img src="images/img-demandez-m.jpg" width="600" height="240" alt="{{ texts.button-middle }}"></a>
+        <a href="{{ texts.button-middle-url}}">
+            {{> image
+                src-mobile = "images/img-demandez-m.jpg"
+                src-desktop = "images/img-demandez-dt.jpg"
+                mobilewidth = 600
+                desktopwidth = 297
+                alt = texts.button-middle
+            }}
+        </a>
     </td>
 </tr>
