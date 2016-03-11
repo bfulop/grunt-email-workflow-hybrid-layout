@@ -8,7 +8,13 @@
     }}
 </span>
 
-<p><br /><font color="#000000" face="sans-serif">{{{ texts.intro-text }}}</font><br/><br/></p>
+<br />
+<!--[if (gte mso 9)|(IE)]>
+<p class="ie"><font color="#000000" face="sans-serif">{{{ texts.intro-text }}}</font></p>
+<![endif]-->
+<!--[if gt IE 8]> <!-- -->
+<p><font color="#000000" face="sans-serif">{{{ texts.intro-text }}}</font></p>
+<![endif]-->
 
 <span class="introtext-descendre">
     {{> image

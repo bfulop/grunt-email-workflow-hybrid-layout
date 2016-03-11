@@ -15,6 +15,14 @@
     max-width: $pagewidth;
     height: auto;
   }
+  p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  p.ie {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 // Media Queries
@@ -57,6 +65,11 @@
       width: 600px;
     }
 
+  }
+
+  .intro-text p {
+      font-size: 13px !important;
+      line-height: 20px !important;
   }
 
 
