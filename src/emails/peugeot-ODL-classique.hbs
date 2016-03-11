@@ -3,10 +3,12 @@ layout: hybrid.hbs
 subject: Hybrid layout email test
 ---
 
-{{~> two-columns-header
-    className="email-header"
-    height=56
+{{~> full-width-image
+    src-mobile="images/logo-peugeot-m.jpg"
+    src-desktop="images/logo-peugeot-dt.jpg"
+    alt="fastnbeautiful"
 ~}}
+
 
 {{~> full-width-image
     src-mobile="images/img-header-m.jpg"
@@ -49,32 +51,4 @@ contentpartial="block-footer"
 bgcolor=parameters-bg-main
 align="left"
 }}
-
-{{~> three-column
-    bgcolor="#E7EBEC"
-    first="double-stacked"
-    second="double-stacked"
-    third="double-stacked"
-~}}
-
-
-{{~> single-column
-    margin="20%"
-    contentwidth="60%"
-    className="celebrating"
-    contentpartial="celebrating"
-    bgcolor="#F26D66"
-~}}
-
-{{~> two-column
-    left="address"
-    right="button"
-    className="horizontal"
-    bgcolor="#59C2A3"
-~}}
-
-{{~> two-columns-footer
-    className="footer"
-    height=300
-~}}
 

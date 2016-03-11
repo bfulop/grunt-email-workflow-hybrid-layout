@@ -9,4 +9,9 @@
   .inner.contents {
     text-align: center;
   }
+  img {
+    width: 100%;
+    max-width: $pagewidth;
+    height: auto;
+  }
 }
