@@ -4,6 +4,7 @@
   background-color: #132034;
 }
 
+
 .intro-text {
   background-color: #ffffff;
   .inner.contents {
@@ -13,5 +14,25 @@
     width: 100%;
     max-width: $pagewidth;
     height: auto;
+  }
+}
+
+// Media Queries
+
+@media screen and (min-width: $pagewidth) {
+  .full-width-image.header-logo {
+    background: url("../images/logo-peugeot-dt.jpg") no-repeat;
+    img {
+      visibility: hidden;
+    }
+  }
+  .full-width-image.main-image {
+    background: url("../images/img-header-dt.jpg") no-repeat;
+    height: 212px;
+    img {
+      visibility: hidden;
+      height: 212px !important;
+      width: $pagewidth;
+    }
   }
 }

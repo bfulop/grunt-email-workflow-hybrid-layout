@@ -1,17 +1,28 @@
-.block-middletext-right-contents {
-
-}
-
 @media screen and (min-width: $pagewidth) {
+  .block-middletext-left {
+    .inner .contents td {
+      background: url("../images/img-demandez-dt.jpg") no-repeat;
+      img {
+        visibility: hidden;
+      }
+    }
+  }
+  .block-middletext-right {
+    .inner .contents td {
+      background: url("../images/img-100points-dt.jpg") no-repeat;
+      img {
+        visibility: hidden;
+      }
+    }
+  }
 
   .block-middletext {
     .two-column {
 
-      .column {
-        max-width: 307px !important;
-      }
-      img {
-        max-width: 307px !important;
+      .column, img {
+        max-width: 297px !important;
+        width: 297px !important;
+        height: 183px !important;
       }
     }
   }
