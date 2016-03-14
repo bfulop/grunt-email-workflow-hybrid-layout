@@ -4,9 +4,9 @@
             <tr>
                 <td class="full-width-image {{ class }}">
                     <!--[if (gte mso 9)|(IE)]>
-                    <img src="{{ src-desktop }}" width="{{ parameters.pagewidth }}" alt="{{ alt }}"/>
+                    <a href="{{ link }}"><img src="{{ src-desktop }}" width="{{ parameters.pagewidth }}" alt="{{ alt }}"/></a>
                     <![endif]-->
-                    <!--[if gt IE 8]> <!-- --><img src="{{ src-mobile }}" alt="{{ alt }}" width="{{ parameters.pagewidth }}" /><![endif]-->
+                    <!--[if gt IE 8]> <!-- --><a href="{{ link }}"><img src="{{ src-mobile }}" alt="{{ alt }}" width="{{ parameters.pagewidth }}" /></a><![endif]-->
                 </td>
             </tr>
         </table>
