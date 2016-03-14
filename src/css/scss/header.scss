@@ -15,12 +15,13 @@
     max-width: $pagewidth;
     height: auto;
   }
-  p {
-    font-size: 22px;
-    line-height: 36px;
+  p, p font {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
   }
   p.ie {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
   }
 }
@@ -67,7 +68,7 @@
 
   }
 
-  .intro-text p {
+  .intro-text p, .intro-text p font {
       font-size: 13px !important;
       line-height: 20px !important;
   }
