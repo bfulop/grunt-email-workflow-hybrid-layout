@@ -69,9 +69,14 @@
   }
 
   .intro-text p, .intro-text p font {
-      font-size: 13px !important;
-      line-height: 20px !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
   }
 
+  .header-firstline {
+      a, a font {
+        font-size: 11px;
+      }
+  }
 
 }
