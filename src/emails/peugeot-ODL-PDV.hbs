@@ -1,0 +1,62 @@
+---
+layout: hybrid.hbs
+subject: Hybrid layout email test
+---
+
+{{~> block-above-header
+
+~}}
+
+{{~> two-columns-header
+    className="header--pdv"
+}}
+
+
+{{~> full-width-image
+    src-mobile="images/img-header-m.jpg"
+    src-desktop="images/img-header-dt.jpg"
+    alt=texts.header
+    class="main-image"
+    link=links.visuel-odl
+
+~}}
+
+{{~> single-column
+    margin="2%"
+    contentwidth="96%"
+    className="intro-text"
+    contentpartial="introtext"
+    bgcolor="#ffffff"
+    align="center"
+}}
+
+{{~> single-column
+    margin="2%"
+    contentwidth="96%"
+    className="block-middletext"
+    contentpartial="block-middletext"
+    bgcolor="#ffffff"
+    align="left"
+}}
+
+{{~> single-column
+margin="2%"
+contentwidth="96%"
+className="block-sociallinks"
+contentpartial="block-sociallinks"
+bgcolor="#ffffff"
+align="center"
+}}
+
+{{~> single-column
+margin="5%"
+contentwidth="90%"
+className="block-footer"
+contentpartial="block-footer"
+bgcolor=parameters-bg-main
+align="left"
+}}
+
+{{~> tracking-pixel
+    url= links.pixel-krux
+~}}
