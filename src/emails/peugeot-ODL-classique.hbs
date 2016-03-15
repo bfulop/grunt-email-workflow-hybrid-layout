@@ -11,7 +11,7 @@ subject: Hybrid layout email test
 {{~> full-width-image
     src-mobile="images/logo-peugeot-m.jpg"
     src-desktop="images/logo-peugeot-dt.jpg"
-    alt="fastnbeautiful"
+    alt="PEUGEOT"
     class="header-logo"
     link=links.logo-header
 ~}}
@@ -20,7 +20,7 @@ subject: Hybrid layout email test
 {{~> full-width-image
     src-mobile="images/img-header-m.jpg"
     src-desktop="images/img-header-dt.jpg"
-    alt="fastnbeautiful"
+    alt=texts.header
     class="main-image"
     link=links.visuel-odl
 
@@ -62,3 +62,6 @@ bgcolor=parameters-bg-main
 align="left"
 }}
 
+{{~> tracking-pixel
+    url= links.pixel-krux
+~}}
