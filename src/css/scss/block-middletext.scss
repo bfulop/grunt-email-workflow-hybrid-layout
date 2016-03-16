@@ -2,6 +2,10 @@
   color: #666666;
 }
 
+.block-middletext-right-PDV table td{
+  line-height: 18px;
+}
+
 @media screen and (min-width: $pagewidth) {
   .block-middletext-left {
     .inner .contents td {
@@ -32,12 +36,19 @@
   }
 
   .block-middletext-right-PDV {
-    img.block-middletext-right-PDV-img {
+
+    img.block-middletext-right-PDV-img,
+    img.block-middletext-right-PDV-spacer{
       display: none !important;
       visibility: hidden;
       width: 0;
       height: 0;
     }
+
+    font {
+      font-size: 16px;
+    }
+
     box-sizing: border-box;
     padding-right: 50% !important;
     border-top: 8px solid white;
