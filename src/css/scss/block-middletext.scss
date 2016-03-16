@@ -45,8 +45,12 @@
       height: 0;
     }
 
-    font {
+    font.large {
       font-size: 16px;
+    }
+
+    font.medium {
+      font-size: 12px;
     }
 
     box-sizing: border-box;
