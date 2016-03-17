@@ -29,3 +29,50 @@
   }
 }
 
+@media screen and (max-width: $pagewidth) {
+  p, p font {
+    font-size: 20px !important;
+    line-height: 30px  !important;
+  }
+
+
+  a.introtext-jenprofite {
+    display: block;
+    background-image: url("../images/button-jenprofite.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    img {
+      width: 177% !important;
+      max-width: 177% !important;
+      visibility: hidden;
+    }
+  }
+
+  span.introtext-descendre {
+    display: block;
+    background-image: url("../images/button-descendre.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    img {
+      width: 130% !important;
+      max-width: 130% !important;
+      visibility: hidden;
+    }
+  }
+
+  .full-width-image.main-image a {
+    display: block;
+    background-image: url("../images/img-header-m.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    img {
+      width: 160% !important;
+      max-width: 160% !important;
+      visibility: hidden;
+    }
+  }
+
+}
