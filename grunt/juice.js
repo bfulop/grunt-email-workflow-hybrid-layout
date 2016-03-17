@@ -2,7 +2,7 @@
 module.exports = {
   your_target: {
     options: {
-      preserveMediaQueries: true,
+      preserveMediaQueries: false,
       applyAttributesTableElements: true,
       applyWidthAttributes: false,
       preserveImportant: true,
