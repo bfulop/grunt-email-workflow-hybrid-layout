@@ -13,10 +13,10 @@
 }
 
 @media screen and (max-width: $pagewidth) {
-
   .middletext-1-left,
   .middletext-1-right {
     display: block;
+    width: 100% !important;
 
     img {
       visibility: hidden;
