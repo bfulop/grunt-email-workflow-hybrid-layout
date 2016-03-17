@@ -1,14 +1,14 @@
 <tr>
     <td>
         <a href="{{ links.cta2-demandez-une-offre }}">
-            {{> image
-                src-mobile = "images/img-demandez-m.jpg"
-                src-desktop = "images/img-demandez-dt.jpg"
-                mobilewidth = 600
-                desktopwidth = 297
-                desktopheight = 183
-                alt = texts.middle-left
-            }}
+            <img
+                    srcset="images/img-demandez-dt.jpg 298w,
+                    images/img-demandez-m.jpg 600w"
+                    src="images/img-demandez-dt.jpg"
+                    alt="{{ texts.button-top }}"
+                    sizes="(max-width: 600px) 600px,
+                    298px"
+                     />
         </a>
     </td>
 </tr>

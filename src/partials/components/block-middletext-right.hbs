@@ -1,12 +1,13 @@
 <tr>
     <td>
-            {{> image
-            src-mobile = "images/img-100points.jpg"
-            src-desktop = "images/img-100points-dt.jpg"
-            mobilewidth = 600
-            desktopwidth = 297
-            desktopheight = 183
-            alt = texts.middle-right
-            }}
+        <img
+                srcset="images/img-100points-dt2.jpg 298w,
+                images/img-100points.jpg 600w"
+                src="images/img-100points-dt2.jpg"
+                alt="{{ texts.button-top }}"
+                sizes="(max-width: 600px) 600px,
+                    298px"
+
+        />
     </td>
 </tr>

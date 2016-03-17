@@ -41,8 +41,9 @@ a {
 }
 
 .two-column .column {
-  width: 100%;
-  max-width: $pagewidth;
+  min-width: 50%;
+  max-width: 100%;
+  width:calc((600px - 100%) * 600);
   display: inline-block;
   vertical-align: top;
   &.horizontal {
@@ -96,18 +97,17 @@ a {
   padding-top: 10px;
 }
 
-
-@media screen and (min-width: $pagewidth) {
-  .two-column .column {
-    max-width: $pagewidth / 2 !important;
-  }
-  .two-column img {
-    max-width: $pagewidth / 2 !important;
-  }
-  .three-column .column {
-    max-width: $pagewidth / 3 !important;
-  }
-  .three-column img {
-    max-width: $pagewidth / 3 !important;
-  }
-}
+//@media screen and (min-width: $pagewidth) {
+//  .two-column .column {
+//    max-width: $pagewidth / 2 !important;
+//  }
+//  .two-column img {
+//    max-width: $pagewidth / 2 !important;
+//  }
+//  .three-column .column {
+//    max-width: $pagewidth / 3 !important;
+//  }
+//  .three-column img {
+//    max-width: $pagewidth / 3 !important;
+//  }
+//}
