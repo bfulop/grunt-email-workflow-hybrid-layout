@@ -4,6 +4,11 @@
 
 .middletext-pdv-2 {
   line-height: 17px;
+  vertical-align: bottom;
+  span.texts {
+    display: inline;
+    vertical-align: bottom;
+  }
   .pdv-head {
     font-size: 16px;
   }
