@@ -34,7 +34,18 @@
   }
 }
 
+
 @media screen and (max-width: $pagewidth) {
+  .header--pdv-right {
+    width: 50% !important;
+  }
+
+  .header--pdv-left img {
+    position: relative;
+    left: -5px;
+  }
+
+
   p, p font {
     font-size: 20px !important;
     line-height: 30px  !important;
@@ -85,4 +96,23 @@
     }
   }
 
+}
+
+@media screen and (max-width: 420px) {
+  .header--pdv-left img {
+    width: 100% !important;
+  }
+
+  .header--pdv-right {
+    &, font {
+      font-size: 13px !important;
+    }
+  }
+
+  .intro-text {
+    p, p font {
+      font-size: 14px !important;
+      line-height: 18px !important;
+    }
+  }
 }
