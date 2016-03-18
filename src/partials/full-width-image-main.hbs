@@ -6,10 +6,10 @@
                     <!--[if (gte mso 9)|(IE)]>
                     <a href="{{ link }}"><img src="{{ src-desktop }}" width="{{ parameters.pagewidth }}" alt="{{ alt }}"/></a>
                     <![endif]-->
-                    <!--[if gt IE 8]> <!-- --><a href="{{ link }}"><img alt="{{ alt }}" width="{{ parameters.pagewidth }}"
+                    <!--[if !IE]><!--><a href="{{ link }}"><img alt="{{ alt }}" width="{{ parameters.pagewidth }}"
                         srcset="{{ src-mobile }} 2x, {{ src-mobile }} 3x"
                         src="{{ src-desktop }}"
-                /></a><![endif]-->
+                /></a><!--<![endif]-->
                 </td>
             </tr>
         </table>

@@ -8,6 +8,7 @@ module.exports = {
       preserveImportant: true,
       preserveFontFaces: true,
       removeStyleTags: false,
+      xmlMode: true,
       webResources: {
         images: false
       }

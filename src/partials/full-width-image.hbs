@@ -6,7 +6,7 @@
                     <!--[if (gte mso 9)|(IE)]>
                     <a href="{{ link }}"><img src="{{ src-desktop }}" width="{{ parameters.pagewidth }}" alt="{{ alt }}"/></a>
                     <![endif]-->
-                    <!--[if gt IE 8]> <!-- --><a href="{{ link }}"><img src="{{ src-desktop }}" alt="{{ alt }}" width="{{ parameters.pagewidth }}" /></a><![endif]-->
+                    <!--[if !IE]><!--><a href="{{ link }}"><img src="{{ src-desktop }}" alt="{{ alt }}" width="{{ parameters.pagewidth }}" /></a><!--<![endif]-->
                 </td>
             </tr>
         </table>
