@@ -60,9 +60,12 @@
     background-position: center;
 
     img {
+      min-width: 160% !important;
+      width: 160% !important;
       width: 160vw !important;
       max-width: 160% !important;
-      visibility: hidden;
+      height: auto !important;
+      visibility: hidden;;
     }
   }
 
@@ -76,8 +79,11 @@
     margin-bottom: 7px;
 
     img {
+      min-width: 183% !important;
+      width: 183% !important;
       width: 183vw !important;
       max-width: 183% !important;
+      height: auto !important;
       visibility: hidden;
     }
   }
