@@ -36,11 +36,11 @@
 
 
 @media screen and (max-width: $pagewidth) {
-  .header--pdv-right {
+  .header-b-pdv-right {
     width: 50% !important;
   }
 
-  .header--pdv-left img {
+  .header-b-pdv-left img {
     position: relative;
     left: -5px;
   }
@@ -101,11 +101,11 @@
 }
 
 @media screen and (max-width: 420px) {
-  .header--pdv-left img {
+  .header-b-pdv-left img {
     width: 100% !important;
   }
 
-  .header--pdv-right {
+  .header-b-pdv-right {
     &, font {
       font-size: 13px !important;
     }
