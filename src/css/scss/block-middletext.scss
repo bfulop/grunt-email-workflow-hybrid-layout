@@ -24,10 +24,17 @@
     font-size: 12px;
   }
 }
-  span.hideon-dt {
-    font-size: 10px;
-    line-height: 10px;
+  //span.hideon-dt {
+  //  font-size: 10px;
+  //  line-height: 10px;
+  //}
+
+
+@media screen and (max-width: $pagewidth) {
+  .pdv-button {
+    margin-bottom: 7px;
   }
+}
 
 @media screen and (max-width: 400px) {
   span.hideon-dt {
@@ -36,6 +43,7 @@
   }
 
 }
+
 @media screen and (min-width: $pagewidth) {
   .table {
     display: table;
