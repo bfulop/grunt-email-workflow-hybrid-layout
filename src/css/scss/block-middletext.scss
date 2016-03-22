@@ -6,6 +6,10 @@
   height: auto;
 }
 
+.middletext-pdv-1 {
+  width: 10% !important;
+}
+
 .middletext-pdv-2 {
   line-height: 16px;
   vertical-align: bottom;
@@ -31,6 +35,10 @@
   }
   .table-cell {
     display: table-cell;
+  }
+
+  td.middletext-pdv-1 {
+    width: 25px !important;
   }
 
   .middletext-1-left a {
