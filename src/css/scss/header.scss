@@ -24,22 +24,17 @@
     height: auto;
   }
   p, p font {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 28px;
     color: #000000;
     text-align: justify;
   }
   p.ie {
     font-size: 12px;
     line-height: 20px;
-    text-align: justify;
   }
 }
 
-p, p font {
-  font-size: 20px !important;
-  line-height: 30px !important;
-}
 
 @media screen and (max-width: $pagewidth) {
   .header-b-pdv-right {
@@ -50,6 +45,13 @@ p, p font {
 @media screen and (min-width: $pagewidth) {
   .header-b-pdv-right {
     width: 220px !important;
+  }
+
+  .intro-text {
+    p, p font {
+      font-size: 12px !important;
+      line-height: 20px !important;
+    }
   }
 
 

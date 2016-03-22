@@ -1,15 +1,21 @@
-<a href="{{ links.cta-j-en-profite }}" class="introtext-jenprofite">
-    <!--<img src="images/button-jenprofite-dt.jpg" alt="{{ texts.button-top }}" width="600" height="63" style="width: 600px; height: 63px;" />-->
-    <img src="images/button-jenprofite.jpg" alt="{{ texts.button-top }}" width="600" height="124" />
-</a>
 
 <!--[if (gte mso 9)|(IE)]>
+<a href="{{ links.cta-j-en-profite }}" class="introtext-jenprofite">
+    <img src="images/button-jenprofite-dt.jpg" alt="{{ texts.button-top }}" width="600" height="63" />
+</a>
 <p class="ie" style="font-size:12px; line-height:20px; color:#000000">{{{ texts.intro-text }}}</p>
+<span class="introtext-descendre">
+    <img src="images/button-descendre-dt.jpg" alt="{{ texts.button-top }}" width="600" height="48" />
+</span>
 <![endif]-->
-<!--[if !IE]><!-->
-<p><font color="#000000" face="sans-serif" size="3">{{{ texts.intro-text }}}</font></p>
-<!--<![endif]-->
 
+<!--[if !IE]><!-->
+<a href="{{ links.cta-j-en-profite }}" class="introtext-jenprofite">
+    <img src="images/button-jenprofite.jpg" alt="{{ texts.button-top }}" width="600" height="124" />
+</a>
+<p><font color="#000000" face="sans-serif" size="3">{{{ texts.intro-text }}}</font></p>
 <span class="introtext-descendre">
     <img src="images/button-descendre.jpg" alt="{{ texts.button-top }}" width="600" height="71" />
 </span>
+<!--<![endif]-->
+
