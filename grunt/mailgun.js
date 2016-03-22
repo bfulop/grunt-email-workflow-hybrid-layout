@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         key: '<%= secrets.mailgun.api_key %>', // See README for secrets.json or replace this with your own key
         sender: '<%= secrets.mailgun.sender %>', // See README for secrets.json or replace this with your preferred sender
         recipient: '<%= secrets.mailgun.recipient %>', // See README for secrets.json or replace this with your preferred recipient
-        subject: '3 yahoo mobile pdv header distribution'
+        subject: 'PDV vehicule button replacement'
       },
       src: ['<%= paths.dist %>/'+grunt.option('template')]
     }
