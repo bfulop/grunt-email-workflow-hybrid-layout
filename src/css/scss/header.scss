@@ -35,6 +35,16 @@
   }
 }
 
+.header-b-pdv-left {
+  min-width: 50%;
+  img {
+    min-width: 160px;
+  }
+ }
+
+.header-b-pdv-right {
+  max-width: 50%;
+}
 
 @media screen and (max-width: $pagewidth) {
   .header-b-pdv-right {
