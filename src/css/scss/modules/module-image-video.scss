@@ -1,1 +1,19 @@
 // Responsive image module
+
+
+@media screen and (min-width: $pagewidth) {
+  .mod-image-video a,
+  .mod-image-video span {
+    display: block;
+    width: $pagewidth !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    img {
+      visibility: hidden;
+    }
+  }
+}

@@ -1,6 +1,25 @@
 ---
 layout: hybrid.hbs
 subject: Hybrid layout email test
+language: fr
+email_id: hybrid-test
+preheader:
+    text: "preheader text"
+header:
+    type: simple
+vitrine:
+    url: "http://example.com"
+la_body:
+    buttons:
+        -   text: mybutton1
+            url: "http://example.com"
+    intro-text: Hello World!
+social:
+    - facebook
+    - youtube
+footer:
+    cgt: conditions de vente
+    unsub: unsub text
 mydata:
     -   first : myfirst
         second: mysecond
@@ -9,8 +28,3 @@ mydata:
 
 ---
 
-{{> myblock }}
-{{> full-width-image }}
-{{> single-column }}
-{{> two-column left="column-content" right="column-content" }}
-{{> three-column first="column-content" second="column-content" third="column-content" }}

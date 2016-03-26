@@ -6,7 +6,7 @@
     <!--[if !mso]><!-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--<![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ mydata.0.first }}</title>
     <link rel="stylesheet" type="text/css" href="../src/css/styles.css" />
     <!--[if (gte mso 9)|(IE)]>
@@ -15,23 +15,13 @@
     </style>
     <![endif]-->
 </head>
-<body>
-<center class="wrapper">
-    <div class="webkit">
-        <!--[if (gte mso 9)|(IE)]>
-        <table width="600" align="center">
-            <tr>
-                <td>
-        <![endif]-->
-        <table class="outer" align="center">
-            {{ body }}
-        </table>
-        <!--[if (gte mso 9)|(IE)]>
-        </td>
-        </tr>
-        </table>
-        <![endif]-->
-    </div>
-</center>
-</body>
+    <body>
+
+    {{#center-wrapper }}
+        {{> pre-header }}
+    {{/center-wrapper}}
+
+
+
+    </body>
 </html>
