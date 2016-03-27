@@ -1,4 +1,21 @@
 module.exports.register = function (Handlebars, options)  {
+    Handlebars.registerHelper('lookupdeep', function ()  {
+
+        var baseobj = Array.prototype.shift.call(arguments);
+        Array.prototype.pop.call(arguments);
+        var pathname = Array.prototype.slice.call(arguments).join('');
+        var path_array = pathname.split('.');
+        var currentobj = baseobj;
+        path_array.forEach(function(element, index, array){
+            currentobj = currentobj[element];
+        },currentobj);
+
+        return currentobj;
+    });
+    
+    
+    
+    
     Handlebars.registerHelper('foo', function (str)  {
         var textresult = str + "\n\n\n";
             for (var aprop in options) {
