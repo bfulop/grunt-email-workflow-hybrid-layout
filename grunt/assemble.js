@@ -4,7 +4,7 @@ module.exports = {
     layoutdir: '<%= paths.src %>/layouts',
     partials: ['<%= paths.src %>/partials/**/*.hbs'],
     helpers: ['<%= paths.src %>/helpers/**/*.js'],
-    data: ['<%= paths.src %>/data/*.{json,yml}'],
+    data: ['<%= paths.src %>/data/**/*.{json,yml}'],
     removeHbsWhitespace: true,
     flatten: true
   },

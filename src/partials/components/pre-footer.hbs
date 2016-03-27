@@ -1,1 +1,11 @@
 <!--    Pre footer module       -->
+
+<tr>
+    <td>
+        <ul>
+            {{#each (lookupdeep this 'common-' language '.socials')}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </td>
+</tr>

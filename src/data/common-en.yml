@@ -1,2 +1,13 @@
 pre-header: "this is the preheader text"
+header:
+  simple: (CIVILITÉ NOM)
 unsubscribe: "to unsubscribe click here"
+socials:
+  - facebook
+  - twitter
+  - instagram
+  - youtube
+  - tumblr
+  - linkedin
+  - pinterest
+cgt: "this is the cgt text"

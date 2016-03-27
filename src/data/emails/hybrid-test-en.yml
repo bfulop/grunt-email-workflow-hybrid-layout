@@ -1,0 +1,6 @@
+la-body-buttons:
+    - text: "Button1"
+      url: "http://example.com"
+    - text: "Button2"
+      url: "http://example.com/button2"
+la-body-text: "This is the intro text"

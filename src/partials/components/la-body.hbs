@@ -1,1 +1,20 @@
 <!--    La Body (buttons and intro text) module     -->
+
+<tr>
+    <td>
+        <table>
+            <tr>
+                <td>
+                    {{#each (lookupdeep this email_id '-' language '.la-body-buttons')}}
+                    <li>{{this.text}}</li>
+                {{/each}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {{lookupdeep this email_id '-' language '.la-body-text' }}
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>

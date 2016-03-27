@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--<![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ mydata.0.first }}</title>
+    <title> </title>
     <link rel="stylesheet" type="text/css" href="../src/css/styles.css" />
     <!--[if (gte mso 9)|(IE)]>
     <style type="text/css">
@@ -18,7 +18,15 @@
     <body>
 
     {{#center-wrapper }}
-        {{> pre-header }}
+        {{> complete-header }}
+    {{/center-wrapper}}
+
+    {{#center-wrapper }}
+        {{ body }}
+    {{/center-wrapper}}
+
+    {{#center-wrapper }}
+        {{> complete-footer }}
     {{/center-wrapper}}
 
 
