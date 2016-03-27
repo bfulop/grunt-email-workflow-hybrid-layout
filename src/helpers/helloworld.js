@@ -1,4 +1,13 @@
 module.exports.register = function (Handlebars, options)  {
+
+    Handlebars.registerHelper('calcwidth-left', function (blocks_number)  {
+        return blocks_number * 95 + (blocks_number - 1) * 6;
+    });
+
+    Handlebars.registerHelper('calcwidth-right', function (blocks_number)  {
+        return (6 - blocks_number) * 95 + (5 - blocks_number) * 6;
+    });
+    
     Handlebars.registerHelper('lookupdeep', function ()  {
 
         var baseobj = Array.prototype.shift.call(arguments);
@@ -12,8 +21,8 @@ module.exports.register = function (Handlebars, options)  {
 
         return currentobj;
     });
-    
-    
+
+
     
     
     Handlebars.registerHelper('foo', function (str)  {

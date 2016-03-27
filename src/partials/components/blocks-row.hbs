@@ -1,0 +1,16 @@
+<!--    Blocks row module       -->
+
+<tr>
+    <td>
+        <table >
+            <tr>
+                <td width="{{calcwidth-left left-width}}">
+                    {{lookupdeep this email_id '-' language '.' row_id '.head' }}
+                </td>
+                <td width="{{calcwidth-right left-width}}">
+                    {{> (lookup . 'left-type')}}
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>

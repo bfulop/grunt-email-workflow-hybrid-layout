@@ -4,3 +4,8 @@ la-body-buttons:
     - text: "Button2"
       url: "http://example.com/button2"
 la-body-text: "This is the intro text"
+row-1:
+  head: "Welcome header"
+  body: "Block body"
+  link-text: "click here"
+  link-url: "http://example.com/welcome"
