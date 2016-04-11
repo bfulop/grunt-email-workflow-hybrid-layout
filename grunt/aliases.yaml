@@ -17,7 +17,7 @@ send:
 # $ grunt rsupload
 rsupload:
   - 'default'
-  - 'cloudfiles'
+#  - 'cloudfiles'
   - 'cdn:cloudfiles'
 
 # Upload image files to Amazon S3

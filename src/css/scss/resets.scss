@@ -123,3 +123,12 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+
+// Hide content on Explorer Desktop
+.hide-mso {
+  mso-hide:all !important;
+}
+
+.hide-mso * {
+  mso-hide:all !important;
+}

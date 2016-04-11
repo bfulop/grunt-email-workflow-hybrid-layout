@@ -69,27 +69,16 @@
     }
   }
 
+  .header-b-pdv-left img {
+    max-width: 228px !important;
+  }
+
   .header-logo a {
     display: block;
     overflow: hidden;
     width: 620px !important;
     height: 65px !important;
     background-image: url("http://1eeb749d6b52b62a3a22-ddb52a953c0a5be9774a16a3c46699de.r38.cf3.rackcdn.com/dist/images/logo-peugeot-dt3.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-
-    img {
-      display: none !important;
-      visibility: hidden !important;
-    }
-  }
-  .header-b-pdv-left a {
-    display: block;
-    overflow: hidden;
-    width: 206px !important;
-    height: 65px !important;
-    background-image: url("http://1eeb749d6b52b62a3a22-ddb52a953c0a5be9774a16a3c46699de.r38.cf3.rackcdn.com/dist/images/logo-only-peugeot-dt.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -149,9 +138,6 @@
 }
 
 //@media screen and (max-width: 420px) {
-.header-b-pdv-left img {
-  width: 100% !important;
-}
 
 .header-b-pdv-right {
   &, font {
