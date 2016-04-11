@@ -44,16 +44,20 @@
 
 }
 
+.table, .table-row, .table-cell {
+  display: block;
+}
+
 @media screen and (min-width: $pagewidth) {
   .table {
-    display: table;
+    display: table !important;
     border-collapse: collapse;
   }
   .table-row {
-    display: table-row;
+    display: table-row !important;
   }
   .table-cell {
-    display: table-cell;
+    display: table-cell !important;
   }
 
   td.middletext-pdv-1 {
@@ -101,10 +105,18 @@
     img {
       display: inline-block !important;
     }
+    .texts {
+      line-height: 16px;
+    }
+  }
+
+  .middletext-pdv-address,
+  .middletext-pdv-address * {
+    line-height: 16px;
   }
 
 
-  .middletext-pdv-3 {
+  .middletext-pdv-3 span {
     display: block;
     width: 302px !important;
     height: 183px !important;
@@ -130,7 +142,6 @@
     background-size: 100%;
     background-size: cover;
     background-position: center;
-
 
     img {
       visibility: hidden;
