@@ -58,6 +58,12 @@
 }
 
 @media screen and (min-width: $pagewidth) {
+  .header-logo {
+    padding-top: 8px !important;
+    padding-bottom: 6px !important;
+  }
+
+
   .header-b-pdv-right {
     width: 220px !important;
   }
@@ -73,21 +79,7 @@
     max-width: 228px !important;
   }
 
-  .header-logo a {
-    display: block;
-    overflow: hidden;
-    width: 620px !important;
-    height: 65px !important;
-    background-image: url("http://1eeb749d6b52b62a3a22-ddb52a953c0a5be9774a16a3c46699de.r38.cf3.rackcdn.com/dist/images/logo-peugeot-dt3.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 
-    img {
-      display: none !important;
-      visibility: hidden !important;
-    }
-  }
 
   .full-width-image.main-image a {
     display: block;
